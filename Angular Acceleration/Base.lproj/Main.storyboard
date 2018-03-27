@@ -36,8 +36,10 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ist-tf-XJ5">
                                                 <rect key="frame" x="0.0" y="87.5" width="288" height="79"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rotations per hour: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="aQy-ba-cs2">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="aQy-ba-cs2">
                                                         <rect key="frame" x="0.0" y="0.0" width="140" height="79"/>
+                                                        <string key="text">Rotations
+per hour: </string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -46,7 +48,7 @@
                                                         <rect key="frame" x="-16" y="0.0" width="140" height="79"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                         <connections>
                                                             <action selector="cyclesPerHourChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="nbb-KB-jxn"/>
                                                             <action selector="cyclesPerHourFinished:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Zal-Ca-30B"/>

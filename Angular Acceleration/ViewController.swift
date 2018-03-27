@@ -36,10 +36,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func updateRadius() {
         
-        guard
-            let text = cyclesPerHourInputField.text,
-            let cyclesPerHour = Float(text)
-            else {
+        guard let text = cyclesPerHourInputField.text else {
+            return
+        }
+        
+        let dotText = text.replacingOccurrences(of: ",", with: ".")
+        
+        guard let cyclesPerHour = Float(dotText) else {
                 return
         }
         
