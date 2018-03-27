@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,34 +16,34 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Angular_Acceleration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hZP-IK-nMF">
-                                <rect key="frame" x="16" y="60" width="343" height="736"/>
+                                <rect key="frame" x="16" y="36" width="288" height="516"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Qq5-gG-Dyd">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="364"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="254"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bfD-7y-aGn">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="116"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="288" height="79.5"/>
                                                 <string key="text">Angular Acceleration
 9.8 m/s per sec</string>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="32"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ist-tf-XJ5">
-                                                <rect key="frame" x="0.0" y="124" width="343" height="116"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ist-tf-XJ5">
+                                                <rect key="frame" x="0.0" y="87.5" width="288" height="79"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rotations per hour: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="aQy-ba-cs2">
-                                                        <rect key="frame" x="0.0" y="0.0" width="343" height="54"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rotations per hour: " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="aQy-ba-cs2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="140" height="79"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="120" borderStyle="roundedRect" textAlignment="center" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="JWs-lv-Wyl">
-                                                        <rect key="frame" x="0.0" y="62" width="343" height="54"/>
+                                                        <rect key="frame" x="-16" y="0.0" width="140" height="79"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -53,10 +53,9 @@
                                                         </connections>
                                                     </textField>
                                                 </subviews>
-                                                <variation key="heightClass=compact" axis="horizontal"/>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radius: 1 m" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Tdh-Yg-aF9">
-                                                <rect key="frame" x="0.0" y="248" width="343" height="116"/>
+                                                <rect key="frame" x="0.0" y="174.5" width="288" height="79.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -64,7 +63,7 @@
                                         </subviews>
                                     </stackView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Von Braun Space Station 1600x1600.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Jq-Ue-DL7">
-                                        <rect key="frame" x="0.0" y="372" width="343" height="364"/>
+                                        <rect key="frame" x="0.0" y="262" width="288" height="254"/>
                                     </imageView>
                                 </subviews>
                                 <variation key="heightClass=compact" axis="horizontal"/>
